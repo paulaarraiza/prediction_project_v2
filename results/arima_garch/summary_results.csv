@@ -1,0 +1,6 @@
+Stock Name,Train Observations,Test Observations,Stationary,Seasonal Stationary,"ARIMA Order (p,d,q)","GARCH Order (r,s)",Residuals Independent,Residuals Normal,Residuals Homoscedastic,Prediction Accuracy
+CVX,8633,455,True,True,"(3,0,2)","(1,0)",True,True,False,0.676923076923077
+AAPL,5357,282,True,True,"(1,0,3)","(1,0)",True,True,False,0.6702127659574468
+SPX,5357,282,True,True,"(0,0,2)","(1,3)",False,False,False,0.6276595744680851
+NVDA,5357,282,True,True,"(3,0,3)","(1,0)",True,True,False,0.6843971631205674
+EQNR,8128,428,True,True,"(1,0,3)","(1,0)",True,True,False,0.6915887850467289

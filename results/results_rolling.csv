@@ -1,0 +1,4 @@
+Data Filepath,Stock(s),Data Type,Start-End Date (Values),Scaling Method,Processing Method,Window Size,Model,Date Performed,Batch Size,Learning Rate,Num Epochs,Execution Time (s),Number of Layers,Criterion,Optimizer,Dropout Rate,Train Accuracy,Test Accuracy
+pca_SPX_Close,SPX,stock_single_name,2009-06-19 00:00:00 - 2024-11-22 00:00:00,standard,pca,200,gru,2024-12-06 20:07:13,16,0.01,5,520.4307203292847,2,CrossEntropyLoss(),Adam,0.2,Not computed,0.912621359223301
+SPX_Close,SPX,stock_single_name,2009-06-19 00:00:00 - 2024-11-22 00:00:00,standard,,200,gru,2024-12-06 20:39:05,16,0.01,5,240.8281373977661,2,CrossEntropyLoss(),Adam,0.2,Not computed,0.52
+technical_SPX,SPX,stock_technical_ind,2010-01-01 - 2024-11-01,standard,,200,gru,2024-12-07 00:45:21,16,0.01,5,229.24353694915771,2,CrossEntropyLoss(),Adam,0.2,Not computed,1.0
